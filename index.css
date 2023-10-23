@@ -18,8 +18,8 @@ background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 }
 
 .s-heart {
-	--heart-color: #FF3366;
-	--text-color: #FF57BB;
+	--heart-color: #fa0505;
+	--text-color: #fe0099;
 	--stroke-color: #FFF;
 	
 	--radius: .2em;
@@ -44,7 +44,7 @@ background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 }
 
 .s-heart::before {
-	content: 'Happy  Birthday';
+	content: 'Ayesha';
 	display: block;
 	position: absolute;
 	color: var( --text-color );
@@ -182,4 +182,7 @@ background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 		content: 'Ayesha's  'Birthday';
 		opacity: 0;
 	}
+}
+.song{
+	margin-top: 500px;
 }
